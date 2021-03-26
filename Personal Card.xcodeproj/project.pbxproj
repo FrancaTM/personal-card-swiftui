@@ -13,6 +13,8 @@
 		25190658260E13F300535E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25190657260E13F300535E16 /* Assets.xcassets */; };
 		2519065B260E13F300535E16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2519065A260E13F300535E16 /* Preview Assets.xcassets */; };
 		2519065E260E13F300535E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2519065C260E13F300535E16 /* LaunchScreen.storyboard */; };
+		25190668260E17A600535E16 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25190667260E17A600535E16 /* Ubuntu-Regular.ttf */; };
+		2519066B260E354B00535E16 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519066A260E354A00535E16 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2519065A260E13F300535E16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2519065D260E13F300535E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2519065F260E13F300535E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25190667260E17A600535E16 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		2519066A260E354A00535E16 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		25190650260E13EB00535E16 /* Personal Card */ = {
 			isa = PBXGroup;
 			children = (
+				25190666260E177200535E16 /* Fonts */,
 				25190651260E13EB00535E16 /* AppDelegate.swift */,
 				25190653260E13EB00535E16 /* SceneDelegate.swift */,
 				25190655260E13EB00535E16 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				2519065C260E13F300535E16 /* LaunchScreen.storyboard */,
 				2519065F260E13F300535E16 /* Info.plist */,
 				25190659260E13F300535E16 /* Preview Content */,
+				2519066A260E354A00535E16 /* InfoView.swift */,
 			);
 			path = "Personal Card";
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				2519065A260E13F300535E16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25190666260E177200535E16 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25190667260E17A600535E16 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25190668260E17A600535E16 /* Ubuntu-Regular.ttf in Resources */,
 				2519065E260E13F300535E16 /* LaunchScreen.storyboard in Resources */,
 				2519065B260E13F300535E16 /* Preview Assets.xcassets in Resources */,
 				25190658260E13F300535E16 /* Assets.xcassets in Resources */,
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2519066B260E354B00535E16 /* InfoView.swift in Sources */,
 				25190652260E13EB00535E16 /* AppDelegate.swift in Sources */,
 				25190654260E13EB00535E16 /* SceneDelegate.swift in Sources */,
 				25190656260E13EB00535E16 /* ContentView.swift in Sources */,
