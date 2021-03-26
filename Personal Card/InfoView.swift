@@ -19,7 +19,7 @@ struct InfoView: View {
                 Image(systemName: imageName)
                     .aspectRatio(contentMode: .fill)
                     .foregroundColor(.green)
-                Text(text).bold()
+                Text(text).bold().foregroundColor(Color("info color"))
             }).padding(.all)
     }
 }
